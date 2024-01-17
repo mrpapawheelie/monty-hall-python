@@ -26,11 +26,6 @@ def monty_hall():
     ### Purpose of This Simulation
     This simulation allows you to run multiple trials of the Monty Hall problem to see statistically whether you're better off sticking with your original choice or switching doors. Try adjust the sample size to a small number to see the difference.
 
-    ### How to Use This Simulator
-    1. Enter the number of trials in the input box.
-    2. Click the 'Run Simulation' button to start the simulation.
-    3. The results will show how often sticking or switching would have won.
-    4. Use these results to understand the probabilities involved in the Monty Hall problem.
     """)
 
     num_trials = st.number_input('Enter the number of trials', min_value=1, value=1000)
