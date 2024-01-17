@@ -20,29 +20,21 @@ LOGGER = get_logger(__name__)
 
 def run():
     st.set_page_config(
-        page_title="Hello",
-        page_icon="👋",
+        page_title="P A P A W H E E L I E Probability Playground",
+        page_icon="🎲",
     )
 
-    st.write("# Welcome to Streamlit! 👋")
+    st.write("# Papa's Probability Playground! 🎲")
 
     st.sidebar.success("Select a demo above.")
 
     st.markdown(
         """
-        Streamlit is an open-source app framework built specifically for
-        Machine Learning and Data Science projects.
-        **👈 Select a demo from the sidebar** to see some examples
-        of what Streamlit can do!
-        ### Want to learn more?
-        - Check out [streamlit.io](https://streamlit.io)
-        - Jump into our [documentation](https://docs.streamlit.io)
-        - Ask a question in our [community
-          forums](https://discuss.streamlit.io)
-        ### See more complex demos
-        - Use a neural net to [analyze the Udacity Self-driving Car Image
-          Dataset](https://github.com/streamlit/demo-self-driving)
-        - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
+        I find visualizing results helps understand concepts like
+        probabilty and how the expected result may not be the case
+        all of the time. This site focuses on these concepts found 
+        in many Machine Learning and Data Science projects.
+        **👈 Select a experiment from the sidebar** to see some weird examples.
     """
     )
 
